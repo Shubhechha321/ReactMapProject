@@ -20,4 +20,4 @@ const PORT = 8800;
 app.use("/api/pins", pinRoute);
 app.use("/api/users", userRoute);
 
-server.listen(PORT, ()=>console.log(`Server running on port ${PORT}`));
+server.listen(PORT, ()=>console.log(`Server running on port ${PORT}`)); 
